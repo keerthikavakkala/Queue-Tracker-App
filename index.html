@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Queue Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Queue Tracker</h1>
+
+    <input type="text" id="name" placeholder="Enter Your Name">
+
+    <br><br>
+
+    <select id="service">
+        <option>Hospital</option>
+        <option>Salon</option>
+        <option>Restaurant</option>
+        <option>Government Office</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="joinQueue()">Join Queue</button>
+
+    <button onclick="callNext()">Call Next Customer</button>
+
+    <h2 id="result"></h2>
+
+    <h2 id="currentToken"></h2>
+
+    <h3>Queue List</h3>
+
+    <ul id="queueList"></ul>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
